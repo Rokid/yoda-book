@@ -23,7 +23,7 @@
 
 系统主要分为3个部分：
 
-- **硬件框架（Hardware Abstraction Framework）**用于对芯片和硬件进行抽象；
+- **硬件抽象框架（Hardware Abstraction Framework）**用于对芯片和硬件进行抽象；
 - **系统框架（System Framework）**基于底层的抽象接口，完成了对几大模块（网络、蓝牙、多媒体等）的场景定义，并通过 [YodaOS Message][] 的方式与其他模块交互；
 - **应用框架（Application Framework）**承担了承上启下的作用，它负责定义 [YodaOS Application][] 以及管理其安装、执行和生命周期等过程，并提供接口让应用开发者使用系统框架所提供的能力。
 

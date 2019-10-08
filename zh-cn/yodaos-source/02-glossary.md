@@ -1,6 +1,10 @@
 术语表（Glossary）
 ===============
 
+#### AFS
+
+AFS 是 Application Framework Service 的缩写，表示应用框架服务，它面向开发者提供了：应用管理，核心开发接口，以及组件化接口等功能。
+
 #### flora
 
 YodaOS 使用 [yodaos-project/flora](http://github.com/yodaos-project/flora) 作为系统 IPC 库，详情请见链接。
@@ -42,14 +46,6 @@ Voice Interface Driver 的模块来适配不同的语音交互层协议，其主
 #### YodaOS Package
 
 YodaOS Package 是系统中一种软件单元，包含 JavaScript 文件、[N-API][] 桥接模块和 package.json。
-
-#### YodaOS Runtime
-
-YodaOS 运行时，提供：
-
-- 系统初始化
-- [应用管理](./yodaos-application)
-- [组件管理](./yodaos-component)
 
 [openwrt]: https://openwrt.org/
 [N-API]: https://nodejs.org/dist/latest/docs/api/n-api.html
